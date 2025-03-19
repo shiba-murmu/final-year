@@ -2,7 +2,7 @@ import React from "react";
 
 import { Link, NavLink } from "react-router-dom";
 import "./styleComponents/StyleHeader.css";
-import Login from "../pages/Landing/Security/Login/Login";
+import Login from "../pages/Landing/Security/login/Login";
 import Signup from "../pages/Landing/Security/SignUp/Signup";
 
 import { useEffect, useRef } from "react";
@@ -114,7 +114,9 @@ function HeaderOptionsParts() {
                   src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500"
                   className="h-8 w-auto"
                 /> */}
-                <div className="text-3xl font-extrabold text-center text-white">Career Lift</div>
+                <div className="text-3xl font-extrabold text-center text-white">
+                  Career Lift
+                </div>
               </div>
               <div className="hidden sm:ml-6 sm:block md:block md:ml-8 ">
                 <div className="flex  space-x-4 justify-center">
@@ -152,11 +154,29 @@ function HeaderOptionsParts() {
                   />
                 </div>
               </NavLink> */}
-              
+
               {/* In the above part we have used here profile icon and below part is the sign in and sign up  */}
 
-              <NavLink className={({isActive}) => isActive ? 'px-3 p-1 border-r-2 bg-blue-500' :'px-3 p-1 border-r-2  hover:bg-blue-500'} to='/Login'>SIGN IN</NavLink>
-              <NavLink className={({isActive}) => isActive ? 'border-l-2 p-1 px-3 bg-blue-500' :'border-l-2 p-1 px-3 hover:bg-blue-500' } to='/Sign Up'>SIGN UP</NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "px-3 p-1 border-r-2 bg-blue-500"
+                    : "px-3 p-1 border-r-2  hover:bg-blue-500"
+                }
+                to="/Login"
+              >
+                SIGN IN
+              </NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "border-l-2 p-1 px-3 bg-blue-500"
+                    : "border-l-2 p-1 px-3 hover:bg-blue-500"
+                }
+                to="/Sign Up"
+              >
+                SIGN UP
+              </NavLink>
             </div>
 
             {/* <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
@@ -222,12 +242,14 @@ function HeaderOptionsParts() {
                 key={item.name}
                 to={item.to}
                 aria-current={item.current ? "page" : undefined}
-                className={({ isActive }) => classNames(
-                  isActive
-                    ? "text-white hover:bg-gray-700"
-                    : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                  "block rounded-md px-3 py-2 text-base font-medium"
-                )}
+                className={({ isActive }) =>
+                  classNames(
+                    isActive
+                      ? "text-white hover:bg-gray-700"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                    "block rounded-md px-3 py-2 text-base font-medium"
+                  )
+                }
               >
                 {item.name}
               </NavLink>

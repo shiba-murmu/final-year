@@ -10,7 +10,7 @@ import Contact from "./pages/Contact.jsx";
 import Landingpage from "./pages/Landing/Landingpage.jsx";
 import Signup from "./pages/Landing/Security/SignUp/Signup.jsx";
 // import Login from "./pages/Landing/Security/login/Login.jsx";
-import Login from "./pages/Landing/Security/Login/Login.jsx";
+import Login from "./pages/Landing/Security/login/Login.jsx";
 import ExploreCareer from "./pages/Landing/Security/ExploreCareer/ExploreCareer.jsx";
 import SkillTest from "./pages/Landing/Security/SkillTest/SkillTest.jsx";
 import Content from "./pages/Landing/Security/AISuggestion/Content.jsx";
@@ -31,8 +31,8 @@ const UseScrollToTop = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to the top when the route changes
     /**
-     * Means this page will render at the top of the page 
-     * automatically whenever the routes changes 
+     * Means this page will render at the top of the page
+     * automatically whenever the routes changes
      */
   }, [pathname]);
 
