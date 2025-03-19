@@ -1,0 +1,35 @@
+/*
+This css is used only for homepage 
+*/
+/* 
+Below id is from the component => CarWrapMaintain() function 
+where the cards section background should be an images.
+*/
+#backgroundImage {
+    /* 
+    In this background image here we can add any type of in the page 
+    for the homepage...
+     */
+    background-image:  url('/images/wall.jpg');
+    /* background-color: red; */
+    /* object-fit: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-attachment: fixed;
+}
+
+.hoverAnimation {
+    transition: background-color 0.7s ease-in-out, color 0.3s ease-in-out;
+}
+
+.hoverAnimation:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.websiteWorkingContainerBackground { 
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/study-7217599.jpg') no-repeat center center/cover;
+}

@@ -1,0 +1,16 @@
+/* 
+This css is written for the text animation in the 
+header dropdown..
+*/
+.animated-text {
+    word-spacing: 0px; /* Adjust the space between words */
+  }
+  
+  .letter {
+    display: inline-block;
+    transition: transform 0.5s ease; /* Smooth rotation */
+  }
+  
+  .animated-text:hover .letter {
+    transform: rotate(360deg); /* Rotate on hover */
+  }

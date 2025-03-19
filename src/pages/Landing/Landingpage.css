@@ -1,0 +1,130 @@
+
+.swiper2 {
+  width: 20rem;
+  height: 25rem;
+
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.slide:nth-child(1n) {
+  /* background-color: rgb(206, 17, 17); */
+  background-image: url('/images/study1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  
+}
+
+.slide:nth-child(2n) {
+  /* background-color: rgb(0, 140, 255); */
+  background-image: url('/images/study3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.slide:nth-child(3n) {
+  background-image: url('/images/study2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  /* background-color: rgb(10, 184, 111); */
+}
+
+/* Here in future some more images can be added.. */
+
+
+.slide:nth-child(4n) {
+  background-image: url('/images/study2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  /* background-color: rgb(211, 122, 7); */
+}
+
+.slide:nth-child(5n) {
+  /* background-color: rgb(118, 163, 12); */
+  background-image: url('/images/study3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.slide:nth-child(6n) {
+  /* background-color: rgb(180, 10, 47); */
+  background-image: url('/images/study3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.slide:nth-child(7n) {
+  /* background-color: rgb(35, 99, 19); */
+  background-image: url('/images/study1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.slide:nth-child(8n) {
+  /* background-color: rgb(0, 68, 255); */
+  background-image: url('/images/study3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.slide:nth-child(9n) {
+  /* background-color: rgb(218, 12, 218); */
+  background-image: url('/images/study1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.slide:nth-child(10n) {
+  /* background-color: rgb(54, 94, 77); */
+  background-image: url('/images/study3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+
+/* Adding the background image for the landing page background */
+.landingBackground{
+  /* background-image: url('/images/landingbackground.jpg'); */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/study-7217599.jpg') no-repeat center center/cover;
+  /* 
+      In this css property we can adjust the background brightness as per the requirement
+      So it can be use any other types of components just by changing the opacity and image path.
+  */
+
+  /* background-image: url('/images/careerExplore.jpg'); */
+  /* background-image: url('/images/r.jpg'); */
+  /* background-color: red; */
+  /* object-fit: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

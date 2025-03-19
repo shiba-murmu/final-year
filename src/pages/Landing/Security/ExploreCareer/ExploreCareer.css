@@ -1,0 +1,66 @@
+/* 
+
+In this css the style will be change as per the 
+requirement
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* For video content  */
+.video-background-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+  /* background-attachment: fixed; */
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video covers the entire area */
+  z-index: -1; /* Places the video behind other content */
+}
+.content-overlay {
+  position: relative;
+  z-index: 1; /* Ensure the content is above the video */
+  color: white;
+  text-align: center;
+  padding-top: 20%;
+}
+
+
+/* This css file is used for manual 
+   styling to the career Explore page 
+ */
+.imageBackground {
+  /* background-image: url("/images/r.jpg"); */
+  /* background-image: url("/images/wall.jpg"); */
+  /* background-image: url("/images/careerExplore.jpg"); */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/study-7217599.jpg') no-repeat center center/cover;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -30;
+  object-fit: cover;
+  background-attachment: fixed;
+}
+
+/* heading background */
+
+.background {
+  /* here background image is used
+  in the inline style */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
