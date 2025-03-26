@@ -100,7 +100,7 @@ function ExploreCareer() {
           <h1 className="text-2xl md:text-4xl font-bold text-white">
             Explore Different Career Paths
           </h1>
-          <p className="text-lg md:text-xl text-white">
+          <p className="text-lg md:text-xl text-black">
             Choosing the right career path is a crucial decision that can impact
             your entire life. At Career Lift, we understand the importance of
             making an informed decision about your career. That's why we've
@@ -152,7 +152,7 @@ function ExploreCareer() {
 
             {/* Content over the video */}
             <div>
-              <div className="text-white  bg-slate-900  bg-opacity-70 text-center p-6 md:p-10 rounded-lg shadow-lg w-full md:w-1/2 my-10 mr-auto ml-0">
+              <div className="text-white bg-opacity-40  bg-slate-900 text-center p-6 md:p-10 rounded-lg shadow-lg w-full md:w-1/2 my-10 mr-auto ml-0">
                 <h1 className="text-2xl md:text-4xl font-bold">
                   What will you do after Graduation
                 </h1>
@@ -213,7 +213,7 @@ function ExploreCareer() {
 
         {/* Add another one for Intermediate level*/}
         <div className="imageBackground p-12">
-          <div className="bg-slate-900 bg-opacity-40 text-white border-2  shadow-slate-300 text-center p-6 md:p-10 mb-10 rounded-lg shadow-lg w-full md:w-1/2  mx-auto">
+          <div className="bg-slate-900 text-white border-2  shadow-slate-300 text-center p-6 md:p-10 mb-10 rounded-lg shadow-lg w-full md:w-1/2  mx-auto">
             <h1 className="text-2xl md:text-4xl font-bold">
               What will you do after 12th
             </h1>
@@ -240,7 +240,7 @@ function ExploreCareer() {
 
           {/* Add one for matriculation level */}
 
-          <div className="bg-gray-900 text-white shadow-slate-300 bg-opacity-40 border-2  p-6 md:p-10 rounded-lg mb-10  shadow-lg w-full md:w-1/2 ml-auto mr-0">
+          <div className="bg-gray-900 text-white shadow-slate-300 border-2  p-6 md:p-10 rounded-lg mb-10  shadow-lg w-full md:w-1/2 ml-auto mr-0">
             <h1 className="text-2xl md:text-4xl font-bold text-center">
               What will you do after Matriculation
             </h1>
@@ -265,7 +265,7 @@ function ExploreCareer() {
             </div>
           </div>
 
-          <div className="text-white border-2 border-white shadow-slate-300  bg-gray-800 bg-opacity-40 p-6 md:p-10 mb-10  rounded-lg shadow-lg w-full md:w-1/2 mx-auto">
+          <div className="text-white border-2 border-white shadow-slate-300  bg-gray-800 p-6 md:p-10 mb-10  rounded-lg shadow-lg w-full md:w-1/2 mx-auto">
             <h1 className="text-2xl md:text-4xl font-bold text-center">
               Explore job Opportunities
             </h1>
@@ -290,7 +290,7 @@ function ExploreCareer() {
 
           {/* card for competitive exams */}
 
-          <div className="border-2 border-white bg-slate-900 bg-opacity-40 shadow-slate-300 text-white p-6 md:p-10 mb-10 rounded-lg shadow-lg w-full md:w-1/2 mr-auto ml-0">
+          <div className="border-2 border-white bg-slate-900  shadow-slate-300 text-white p-6 md:p-10 mb-10 rounded-lg shadow-lg w-full md:w-1/2 mr-auto ml-0">
             <h1 className="text-2xl md:text-4xl font-bold text-center">
               Competitive Exams
             </h1>
