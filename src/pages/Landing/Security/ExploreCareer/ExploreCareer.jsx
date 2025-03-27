@@ -118,27 +118,7 @@ function ExploreCareer() {
         </div>
       </div>
 
-      {/* adding other design */}
-      {/* <div className="bg-white p-6 md:p-10 rounded-lg shadow-lg w-full">
-        <h2 className="text-xl md:text-3xl font-bold text-center mb-4">
-          How to Use This Page
-        </h2>
-        <p className="text-md md:text-lg text-center mb-6">
-          Welcome to the Career Lift Explore Page! Follow these steps to make the most out of your experience:
-        </p>
-        <ol className="list-decimal list-inside text-md md:text-lg text-center space-y-2">
-          <li>Read through the career path options provided.</li>
-          <li>Take the Skill Test to identify your strengths and interests.</li>
-          <li>Click on "View Path" buttons to explore detailed information about each career path.</li>
-          <li>Use the resources provided to make informed decisions about your future.</li>
-          <li>Contact us if you have any questions or need further guidance.</li>
-        </ol>
-        <div className="flex justify-center mt-6">
-          <NavLink to="/Contact" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Contact Us
-          </NavLink>
-        </div>
-      </div> */}
+    
 
       {/* This is the main content for the page.. */}
       <div>
