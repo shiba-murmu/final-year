@@ -265,7 +265,7 @@ function ExploreCareer() {
             </div>
           </div>
 
-          <div className="text-white border-2 border-white shadow-slate-300  bg-gray-800 p-6 md:p-10 mb-10  rounded-lg shadow-lg w-full md:w-1/2 mx-auto">
+          <div className="text-white border-2 border-white shadow-slate-300  bg-gray-900 p-6 md:p-10 mb-10  rounded-lg shadow-lg w-full md:w-1/2 mx-auto">
             <h1 className="text-2xl md:text-4xl font-bold text-center">
               Explore job Opportunities
             </h1>
