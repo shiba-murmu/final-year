@@ -179,38 +179,7 @@ function ExploreCareer() {
             </div>
           </div>
         </div>
-        {/* This contents are the cards contents here... */}
-
-        {/* For graduation level */}
-        {/* In level some more design will be added... */}
-
-        {/* <div className="bg-slate-950 p-6 md:p-10 rounded-lg shadow-lg w-full">
-          <div className="bg-sky-400 text-center p-6 md:p-10 rounded-lg shadow-lg w-full md:w-1/2 my-10 mr-auto ml-0">
-            <h1 className="text-2xl md:text-4xl font-bold">
-              What will you do after Graduation
-            </h1>
-            <p className="text-md  md:text-lg md:px-10">
-              After graduation, you have a wide range of options to choose from.
-              You can opt for further studies, vocational training, or enter the
-              workforce. Whatever path you choose, it's essential to have a
-              clear understanding of your strengths and interests. At Career
-              Lift, we provide you with the tools and resources you need to make
-              informed decisions about your future. Take our Skill Test to
-              discover your strengths and interests, and explore different
-              career paths that align with them. Our comprehensive guide will
-              help you make a confident decision about your career and set you
-              on the path to success.
-            </p>
-            <div className="flex justify-center mt-6 md:mt-10">
-              <NavLink to="/ContentWindow/3">
-                <button className="bg-yellow-300 hover:bg-yellow-500 text-black font-bold py-2 px-4 rounded-0">
-                  View path
-                </button>
-              </NavLink>
-            </div>
-          </div>
-        </div> */}
-
+        
         {/* Add another one for Intermediate level*/}
         <div className="imageBackground p-12">
           <div className="bg-slate-900 text-white border-2  shadow-slate-300 text-center p-6 md:p-10 mb-10 rounded-lg shadow-lg w-full md:w-1/2  mx-auto">
@@ -318,87 +287,10 @@ function ExploreCareer() {
         </div>
       </div>
 
-      {/* <div className="py-6 landingBackground ">
-        <h2 className="text-8xl flex text-blue-300 justify-center flex-col items-center   pl-2 font-bold">
-          <span className="text-white">Explore Your Next </span>
-          <span style={{ color: "yellow" }} className="pl-1">
-            {" "}
-            Career Path{" "}
-          </span>
-          <div>
-            <TbArrowBigDownLinesFilled size={80} />
-          </div>
-        </h2>
-      </div>
 
-      <ExplanationForContent />
-
-      <div className="w-full grid place-content-center bg-[#0A2540] h-[50rem] md:h-[40rem] lg:h-[40rem]">
-        <div className=" w-full md:w-[75vw]">
-          <div className="imageBackground  flex flex-col sm:flex-row justify-evenly font-normal text-3xl p-10 m-2 text-black">
-            <NavLink  className="bg-[#ffffff] p-9 shadow-2xl transition transform duration-500 ease-in-out  hover:scale-105 hover:shadow-2xl hover:-translate-y-1">
-              After Matriculation
-            </NavLink>
-            <NavLink className="bg-[#ffffff] p-9 shadow-2xl transition transform duration-500 ease-in-out  hover:scale-105 hover:shadow-2xl hover:-translate-y-1">
-              After Intermediate
-            </NavLink>
-            <NavLink className="bg-[#ffffff] p-9 shadow-2xl transition transform duration-500 ease-in-out  hover:scale-105 hover:shadow-2xl hover:-translate-y-1">
-              After Graduation
-            </NavLink>
-          </div>
-          <div className="imageBackground bg-black flex justify-evenly flex-col  sm:flex-row  font-normal text-3xl p-10 m-2 text-black">
-            <NavLink className="bg-[#ffffff] p-9 shadow-2xl transition transform duration-500 ease-in-out  hover:scale-105 hover:shadow-2xl hover:-translate-y-1">
-              Competitive Exams
-            </NavLink>
-            <NavLink className="bg-[#ffffff] p-9 shadow-2xl transition transform duration-500 ease-in-out  hover:scale-105 hover:shadow-2xl hover:-translate-y-1">
-              Find your job
-            </NavLink>
-          </div>
-        </div>
-      </div>
-
-      <hr /> */}
     </>
   );
 }
 
 export default ExploreCareer;
 
-{
-  /* <div className="bg-green-600 flex flex-col">
-        <ContentsPart />
-        <div>
-          <Card
-            width={"w-1/2"}
-            backgroundColor="bg-black"
-            Big_Text="After Intermediate"
-            Small_Description="Discover a plethora of career opportunities available to you after completing 12th grade. Career Lift guides you through streams like Engineering, Medicine, Law, Management, and more. Whether you are inclined towards Science, Arts, or Commerce, we help you explore courses, colleges, and career paths that align with your interests and abilities. Equip yourself with the right knowledge and skills for a successful future by understanding the diverse options and making informed decisions."
-          />
-        </div>
-        <div>
-          <Card
-            width={"w-1/2"}
-            backgroundColor="bg-black"
-            Big_Text="After Graduation"
-            Small_Description="Explore different career paths and find the one that suits you bestExplore different career paths and find the one that suits you bestExplore different career paths and find the one that suits you best."
-          />
-        </div>
-        <div>
-          <Card
-            width={"w-1/2"}
-            backgroundColor="bg-black"
-            Big_Text="Others Competitive Exams"
-            Small_Description="Explore different career paths and find the one that suits you bestExplore different career paths and find the one that suits you bestExplore different career paths and find the one that suits you best."
-          />
-        </div>
-
-        <div>
-          <Card
-            width={"w-1/2"}
-            backgroundColor="bg-black"
-            Big_Text="Explore Jobs in your area"
-            Small_Description="Explore different career paths and find the one that suits you best in your area.Explore different career paths and find the one that suits you best in your area.Explore different career paths and find the one that suits you best in your area.Explore different career paths and find the one that suits you best in your area.Explore different career paths and find the one that suits you best in your area.Explore different career paths and find the one that suits you best in your area.Explore different career paths and find the one that suits you best in your area."
-          />
-        </div>
-      </div> */
-}
