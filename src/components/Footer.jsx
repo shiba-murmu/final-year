@@ -13,7 +13,7 @@ import { BsTwitterX } from "react-icons/bs";
 function Footer() {
   return (
     <>
-      <footer className="relative z-10 p-5 bg-slate-900 text-white pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
+      <footer className="relative z-10 p-5 bg-black text-white pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
@@ -187,87 +187,6 @@ function Footer() {
         </div>
       </footer>
 
-      {/* <footer className="bg-slate-900  text-white py-12">
-        <div className="max-w-screen-xl mx-auto px-4">
-          <div className="flex flex-wrap justify-between">
-            <div className="w-full md:w-1/4 mb-6 md:mb-0">
-              <div className="footer-logo mb-4 flex items-center">
-                <img
-                  src="https://www.thesparksfoundationsingapore.org/images/logo_small.png"
-                  alt="logo"
-                  className="h-12 mr-2"
-                />
-                <span className="text-2xl font-semibold">Career Lift</span>
-              </div>
-              <p className="text-sm"> 2025 Career Lift. All rights reserved.</p>
-            </div>
-            <div className="w-full md:w-1/4 mb-6 md:mb-0">
-              <h3 className="text-lg font-semibold mb-3">Quick Links</h3>
-              <ul className="flex flex-col space-y-3">
-                <li className="hover:bg-gray-900 p-2 rounded">
-                  <Link
-                    to="/homepage"
-                    className="hover:underline hover:font-semibold"
-                  >
-                    Home
-                  </Link>
-                </li>
-                <li className="hover:bg-gray-900 p-2 rounded">
-                  <Link
-                    to="/about"
-                    className="hover:underline hover:font-semibold"
-                  >
-                    About
-                  </Link>
-                </li>
-                <li className="hover:bg-gray-900 p-2 rounded">
-                  <Link
-                    to="/SkillTest"
-                    className="hover:underline hover:font-semibold"
-                  >
-                    Skill test
-                  </Link>
-                </li>
-                <li className="hover:bg-gray-900 p-2 rounded">
-                  <Link
-                    to="/contact"
-                    className="hover:underline hover:font-semibold"
-                  >
-                    Contact
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div className="w-full md:w-1/4 flex justify-end flex-col items-center mb-6 md:mb-0">
-              <h3 className="text-lg font-semibold mb-3">Follow Us</h3>
-              <ul className="flex justify-center  items-center space-x-3">
-                <li className="p-2 rounded">
-                  <a href="#">
-                    <BsTwitterX size={32} />
-                  </a>
-                </li>
-                <li className="p-2 rounded">
-                  <a href="#">
-                    <ImFacebook2 size={32} />
-                  </a>
-                </li>
-                <li className="p-2 rounded">
-                  <a href="https://www.linkedin.com/in/shivani-singh-258991308/">
-                    <FaLinkedin size={32} />
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="w-full flex justify-end flex-col md:w-1/4">
-              <h3 className="text-lg font-semibold mb-3">Contact Us</h3>
-              <ul>
-                <li>Email: info@careerlift.com</li>
-                <li>Phone: +123 456 7890</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer> */}
     </>
   );
 }
