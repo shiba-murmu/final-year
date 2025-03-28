@@ -266,8 +266,6 @@ function ExploreCareer() {
           </div>
         </div>
       </div>
-
-
     </>
   );
 }

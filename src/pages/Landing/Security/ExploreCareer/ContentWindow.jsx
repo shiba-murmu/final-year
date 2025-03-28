@@ -23,9 +23,15 @@ import CompetitiveExam from "./CompetitiveExam";
 import Jobs from "./Jobs";
 import { HiArrowRight } from "react-icons/hi"; // this for icons used here
 
+/**
+ * This components UI is used for to add search bar and filter bar
+ * at the UI of the page..
+ */
+import SearchAndFilter from "../../../../components/Search and filter bar/SearchAndFilter";
+
 function heading() {
   /**
-   * This heading is the background heading where we have 
+   * This heading is the background heading where we have
    * some background images...
    */
   const { id } = useParams();
@@ -102,8 +108,8 @@ function optionsOfThePage() {
    * Here also implement id based rendering
    * because we have to change the options dynamically
    * based on the id...
-   * 
-   * In this component we can add more options as per 
+   *
+   * In this component we can add more options as per
    * the id's requirement.
    */
   const { id } = useParams();
@@ -115,8 +121,7 @@ function optionsOfThePage() {
         return (
           <>
             <div className="bg-blue-500 flex px-4 justify-evenly md:flex-row flex-col gap-4 md:gap-0 ">
-              <button  className="bg-blue-500 flex items-center gap-4 hover:bg-blue-700 hover:scale-105 transition duration-300 text-white font-medium text-lg py-3 px-8 rounded-0 md:w-1/3 w-full">
-
+              <button className="bg-blue-500 flex items-center gap-4 hover:bg-blue-700 hover:scale-105 transition duration-300 text-white font-medium text-lg py-3 px-8 rounded-0 md:w-1/3 w-full">
                 EXPLORE HIGHER COURSES
                 <HiArrowRight size={20} />
               </button>
@@ -246,18 +251,15 @@ function optionsOfThePage() {
 
 // *********************************************************************************************************************
 
-
-
-
 // ********************************************* Main function *******************************************************
 /**
- * 
- * @param {Main functions for this file...} param0 
- * @returns 
+ *
+ * @param {Main functions for this file...} param0
+ * @returns
  */
 export default function ContentWindow() {
-// main function of this page here all the content will render from according to
-// the id's passed.../
+  // main function of this page here all the content will render from according to
+  // the id's passed.../
 
   // This function will show the content based on the id's
   const { id } = useParams();
@@ -276,6 +278,7 @@ export default function ContentWindow() {
           <>
             {heading(id)}
             {optionsOfThePage()}
+            <SearchAndFilter />
             <Matriculation />
           </>
         );
@@ -289,6 +292,7 @@ export default function ContentWindow() {
           <>
             {heading(id)}
             {optionsOfThePage()}
+            <SearchAndFilter />
             <Intermediate />
           </>
         );
@@ -302,6 +306,7 @@ export default function ContentWindow() {
           <>
             {heading(id)}
             {optionsOfThePage()}
+            <SearchAndFilter />
             <Graduation />
           </>
         );
@@ -315,6 +320,7 @@ export default function ContentWindow() {
           <>
             {heading(id)}
             {optionsOfThePage()}
+            <SearchAndFilter />
             <Jobs />
           </>
         );
@@ -328,6 +334,7 @@ export default function ContentWindow() {
           <>
             {heading()}
             {optionsOfThePage()}
+            <SearchAndFilter />
             <CompetitiveExam />
           </>
         );
